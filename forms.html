@@ -1,0 +1,41 @@
+<html>
+<head>
+<title> Урок о формах в html</title>
+<link rel = "stylesheet" href="style.css">
+</head>
+<body>
+<h3>Форма регистрации</h3>
+<form action = "formworker.php" method = "post" enctype = "multipart/form-data">
+<p>Имя пользователя:</p>
+<input type = "text" name = "username"/>
+</br>
+<p>Пароль:</p>
+<input type = "password" name = "password"/>
+</br>
+<p>Телефон:</p>
+<input type = "tel" name = "phone"/>
+<p>Пол:</p>
+<div>
+<input type = "radio" name = "gender" value = "male"/>Мужской</br>
+<input type = "radio" name = "gender" value = "female"/>Женский
+</div>
+<p>Выберите уровень привелегий</p>
+<input type="radio" name="typeaccess" value="guest">Гость</input></br>
+<input type="radio" name="typeaccess" value="user">Пользователь</input></br>
+<p>Выберите интересующий вас стек технологий</p>
+<input type="checkbox" name="htmlcss" value ="yes">html/css
+<input type="checkbox" name="js" value = "yes">javascript
+<input type="checkbox" disabled name="php" value = "yes">php
+<input type="checkbox" name="php" checked value = "yes">mysql
+<p>Выберите свой уровень</p>
+<select name="grade">
+<option value="junior">Junior</option>
+<option value="middle">Middle</option>
+<option value="senior">Senior</option>
+</select>
+<p>Дополнительная информация:</p>
+<textarea cols = "10" rows = "10"></textarea>
+<p><input type = "submit"></p>
+</form>
+</body>
+</html>
