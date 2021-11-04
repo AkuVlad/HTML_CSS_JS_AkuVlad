@@ -1,0 +1,41 @@
+div
+{
+	color:purple;
+	
+	box-sizing: border-box;
+}
+.wrapper
+{
+	margin: 0 auto;
+	width:450px;
+}
+.firstblock
+{
+	width:200px;
+	background-color:#66FFFF;
+	float:left;
+	padding:5px;
+	
+}
+.secondblock
+{
+	width:150px;
+	background-color:#FFFF99;
+	float:left;
+	padding:5px;
+	
+}
+.thirdblock
+{
+	width:100px;
+	background-color:#0066CC;
+	float:left;
+    padding:5px;
+}
+.floatblock
+{
+	width:450px;
+	background-color:CC3399;
+	clear:left;
+	padding:5px;
+}
