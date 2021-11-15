@@ -1,0 +1,39 @@
+.body
+{
+	max-width:900px;
+	margin:0 auto;
+}
+body div
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding:10px;
+}
+.header
+{
+	background:#CCA69E;
+	padding: 10px;
+}
+.left-sidebar
+{
+	width:20%;
+	background: #8ED9B6;
+	float:left;
+}
+.content
+{
+	float:left;
+	width:60%;
+}
+.right-sidebar
+{
+	width:20%;
+	background: #FF9282;
+	float: left;
+}
+.footer
+{
+	background: #000;
+	clear:both;
+	color:#ccc;
+}
